@@ -74,9 +74,9 @@ Classes:
 
 ### Histopathology Images
 
-- CLAHE (Contrast Enhancement)
-- Bilateral Filtering
-- Image Sharpening
+- Color Noralization
+- Stain Normalization
+- Noise Reduction
 - Resize to **150 × 150**
 
 ### CT Scan Images
@@ -176,35 +176,6 @@ This approach combines deep semantic features with handcrafted texture descripto
 ## 📁 Project Structure
 
 ```
-Lung-Cancer-Detection/
-│
-├── Dataset/
-│
-├── Preprocessing/
-│
-├── Feature_Extraction/
-│      ├── MobileNetV2
-│      ├── InceptionV3
-│      ├── HOG
-│      └── DAISY
-│
-├── PCA/
-│
-├── XGBoost/
-│
-├── Models/
-│
-├── Results/
-│      ├── Confusion Matrix
-│      ├── Accuracy Graphs
-│      └── Sample Predictions
-│
-├── notebooks/
-│
-├── requirements.txt
-│
-└── README.md
-```
 
 ---
 
@@ -225,23 +196,3 @@ Lung-Cancer-Detection/
 This project was developed as part of our research work on AI-assisted lung cancer diagnosis using multi-modal medical imaging.
 
 ---
-
-## 👨‍💻 Authors
-
-- Aleena Sayed
-- Fathma Shekh
-- Nihaal Saunshimath
-- Sujal Yavgal
-- Manohar Madgi
-
----
-
-## ⭐ Acknowledgements
-
-Special thanks to our project guide, KLE Technological University, and the publicly available medical imaging datasets that made this research possible.
-
----
-
-## 📜 License
-
-This project is intended for academic and research purposes.
