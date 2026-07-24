@@ -187,9 +187,11 @@ Lung-Cancer-Detection/
 │      ├── Model Comparison
 │      └── Classification Results
 │
-├── Histopathological Images
+├── Architechture
 │
-└── README.md
+├── README
+│
+└── Histopathological Images
 ```
 
 ---
