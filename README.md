@@ -1,4 +1,4 @@
-# 🫁 Detection of Lung Cancer Using Histopathological and CT Scan Images
+# Detection of Lung Cancer Using Histopathological and CT Scan Images
 
 An AI-powered multi-modal lung cancer detection system that classifies lung tissue using **Histopathological Images** and **CT Scan Images**. The project compares a deep learning-based approach with a hybrid feature extraction approach to identify the most effective method for lung cancer classification.
 
