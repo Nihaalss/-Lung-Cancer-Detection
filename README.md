@@ -176,6 +176,21 @@ This approach combines deep semantic features with handcrafted texture descripto
 ## 📁 Project Structure
 
 ```
+Lung-Cancer-Detection/
+│
+├── Models/
+│      ├── MobileNetV2
+│      ├── InceptionV3
+│
+├── Results/
+│      ├── Confusion Matrix
+│      ├── Model Comparison
+│      └── Classification Results
+│
+├── Histopathological Images
+│
+└── README.md
+```
 
 ---
 
@@ -186,13 +201,5 @@ This approach combines deep semantic features with handcrafted texture descripto
 - Federated Learning for privacy-preserving AI
 - Real-time deployment for clinical applications
 - Mobile and edge-device optimization
-
----
-
-## 📄 Research Paper
-
-**Detection of Lung Cancer Using Histopathological and CT Scan Images**
-
-This project was developed as part of our research work on AI-assisted lung cancer diagnosis using multi-modal medical imaging.
 
 ---
